@@ -1,0 +1,25 @@
+rect {
+  stroke: white;
+}
+text{
+  font-size: 8px;
+}
+#legend{
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+div.tooltip {
+  position: absolute;
+  padding: 10px;                
+  font: 12px Arial;        
+  background: rgba(255, 255, 204, 0.95);
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;        
+  border-radius: 2px;            
+  pointer-events: none; 
+}
